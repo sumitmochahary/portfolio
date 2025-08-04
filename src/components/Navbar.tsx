@@ -4,30 +4,32 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Contact', href: '#contact' },
+    { name: '.home()', href: '#home' },
+    { name: '.about()', href: '#about' },
+    { name: '.skills()', href: '#skills' },
+    { name: '.projects()', href: '#projects' },
+    { name: '.contact()', href: '#contact' },
   ];
 
   return (
-    <nav className="fixed w-full bg-white/90 backdrop-blur-sm shadow-md z-50">
+    <nav className="fixed w-full bg-gray-950/95 backdrop-blur-sm border-b border-gray-800 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-gray-800">Portfolio</h1>
+            <span className="text-green-400 text-xl">{'<'}</span>
+            <h1 className="text-xl font-bold text-gray-100 mx-1">DevPortfolio</h1>
+            <span className="text-green-400 text-xl">{'/>'}</span>
           </div>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+                className="text-gray-400 hover:text-green-400 transition-colors duration-200 font-mono text-sm"
               >
-                {link.name}
+                <span className="text-blue-400">const</span> {link.name}
               </a>
             ))}
           </div>
@@ -36,7 +38,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-gray-900 focus:outline-none"
+              className="text-gray-400 hover:text-green-400 focus:outline-none"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {isOpen ? (
@@ -51,16 +53,16 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="md:hidden bg-gray-900 border-t border-gray-800">
+            <div className="px-2 pt-2 pb-3 space-y-1">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200"
+                  className="block px-3 py-2 text-gray-400 hover:text-green-400 transition-colors duration-200 font-mono text-sm"
                   onClick={() => setIsOpen(false)}
                 >
-                  {link.name}
+                  <span className="text-blue-400">const</span> {link.name}
                 </a>
               ))}
             </div>
