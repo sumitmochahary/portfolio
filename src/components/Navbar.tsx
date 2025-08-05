@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <span className="text-green-400 text-xl">{'<'}</span>
-            <h1 className="text-xl font-bold text-gray-100 mx-1">DevPortfolio</h1>
+            <h1 className="text-xl font-bold text-gray-100 mx-1">sm</h1>
             <span className="text-green-400 text-xl">{'/>'}</span>
           </div>
           
