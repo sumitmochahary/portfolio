@@ -4,14 +4,15 @@ const Skills = () => {
     { name: "TypeScript", icon: "🔷", extension: ".ts" },
     { name: "Python", icon: "🐍", extension: ".py" },
     { name: "React", icon: "⚛️", extension: ".jsx" },
-    { name: "Node.js", icon: "🟢", extension: ".js" },
-    { name: "HTML/CSS", icon: "🎨", extension: ".html" },
+    { name: "Node", icon: "🟢", extension: ".js" },
+    { name: "HTML", icon: "🎨", extension: ".html" },
+    { name: "CSS", icon: "🎨", extension: ".css" },
   ];
 
   const tools = [
     {
       category: "Frontend",
-      items: ["React", "Tailwind CSS"],
+      items: ["React", "Tailwind CSS", "Material UI", "Bootstrap"],
     },
     {
       category: "Backend",
