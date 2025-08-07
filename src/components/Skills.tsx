@@ -11,19 +11,19 @@ const Skills = () => {
   const tools = [
     {
       category: "Frontend",
-      items: ["React", "Next.js", "Vue", "Tailwind CSS", "Redux"],
+      items: ["React", "Tailwind CSS"],
     },
     {
       category: "Backend",
-      items: ["Node.js", "Express", "Django", "FastAPI", "GraphQL"],
+      items: ["Node.js", "Spring Boot"],
     },
     {
       category: "Database",
-      items: ["MongoDB", "PostgreSQL", "Redis", "MySQL", "Firebase"],
+      items: ["MongoDB", "PostgreSQL", "MySQL"],
     },
     {
       category: "DevOps",
-      items: ["Docker", "AWS", "Git", "CI/CD", "Kubernetes"],
+      items: ["Git"],
     },
   ];
 
