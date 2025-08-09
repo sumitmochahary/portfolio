@@ -23,6 +23,17 @@ const Projects = () => {
       commits: 155,
       stars: 0,
     },
+    // {
+    //   id: 4,
+    //   name: "DevOps Automation Tool",
+    //   description:
+    //     "CLI tool for automating deployment pipelines and infrastructure management.",
+    //   technologies: ["Go", "Docker", "Kubernetes", "AWS"],
+    //   github: "https://github.com",
+    //   type: "tools",
+    //   commits: 98,
+    //   stars: 45,
+    // },
   ];
 
   const tabs = [
