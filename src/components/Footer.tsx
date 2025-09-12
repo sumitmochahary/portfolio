@@ -18,25 +18,25 @@ const Footer = () => {
             <div className="space-y-1">
               <a
                 href="#home"
-                className="block text-gray-400 hover:text-green-400 transition-colors"
+                className="block text-gray-400 hover:text-green-400 px-3 py-2 transition-colors"
               >
                 drwxr-xr-x home/
               </a>
               <a
                 href="#about"
-                className="block text-gray-400 hover:text-green-400 transition-colors"
+                className="block text-gray-400 hover:text-green-400 px-3 py-2 transition-colors"
               >
                 drwxr-xr-x about/
               </a>
               <a
                 href="#projects"
-                className="block text-gray-400 hover:text-green-400 transition-colors"
+                className="block text-gray-400 hover:text-green-400 px-3 py-2 transition-colors"
               >
                 drwxr-xr-x projects/
               </a>
               <a
                 href="#contact"
-                className="block text-gray-400 hover:text-green-400 transition-colors"
+                className="block text-gray-400 hover:text-green-400 px-3 py-2 transition-colors"
               >
                 -rw-r--r-- contact.txt
               </a>
