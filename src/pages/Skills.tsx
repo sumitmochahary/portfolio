@@ -39,7 +39,7 @@ const Skills = () => {
 
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Language Files */}
-          <div className="bg-gray-950 rounded-lg border border-gray-800 overflow-hidden">
+          <div className="bg-gray-950 rounded-lg border border-gray-800 overflow-hidden hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
             <div className="bg-gray-800 px-4 py-2">
               <span className="text-gray-400 text-sm font-mono">
                 ~/skills/languages
@@ -68,7 +68,7 @@ const Skills = () => {
           </div>
 
           {/* Package.json Style */}
-          <div className="bg-gray-950 rounded-lg border border-gray-800 overflow-hidden">
+          <div className="bg-gray-950 rounded-lg border border-gray-800 overflow-hidden hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
             <div className="bg-gray-800 px-4 py-2">
               <span className="text-gray-400 text-sm font-mono">
                 package.json
@@ -80,11 +80,10 @@ const Skills = () => {
   "name": "developer-portfolio",
   "version": "1.0.0",
   "dependencies": {
-    "react": "^18.0.0",
-    "next": "^13.0.0",
-    "tailwindcss": "^3.0.0",
+    "react": "^19.0.0",
+    "tailwindcss": "^4.0.0",
     "typescript": "^5.0.0",
-    "node": "^18.0.0"
+    "node": "^22.0.0"
   }
 }`}
               </pre>
@@ -93,11 +92,11 @@ const Skills = () => {
         </div>
 
         {/* Tech Stack Grid */}
-        <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6 ">
           {tools.map((toolCategory) => (
             <div
               key={toolCategory.category}
-              className="bg-gray-950 rounded-lg border border-gray-800 p-6"
+              className="bg-gray-950 rounded-lg border border-gray-800 p-6 hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
             >
               <h3 className="text-green-400 font-mono text-sm mb-4">
                 <span className="text-gray-400">$</span> cd{" "}
@@ -118,7 +117,7 @@ const Skills = () => {
         </div>
 
         {/* Command Line Skills */}
-        <div className="mt-12 bg-gray-950 rounded-lg border border-gray-800 p-6">
+        <div className="mt-12 bg-gray-950 rounded-lg border border-gray-800 p-6 hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
           <div className="font-mono text-sm">
             <p className="text-green-400 mb-4">$ ./check-skills.sh</p>
             <div className="space-y-2">

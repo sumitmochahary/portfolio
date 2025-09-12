@@ -26,7 +26,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative">
           {/* Terminal Window */}
-          <div className="bg-gray-950 rounded-lg shadow-2xl border border-gray-800 overflow-hidden">
+          <div className="bg-gray-950 rounded-lg shadow-2xl border border-gray-800 overflow-hidden hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
             {/* Terminal Header */}
             <div className="bg-gray-800 px-4 py-2 flex items-center space-x-2">
               <div className="w-3 h-3 bg-red-500 rounded-full"></div>

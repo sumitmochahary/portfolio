@@ -23,17 +23,6 @@ const Projects = () => {
       commits: 155,
       stars: 0,
     },
-    // {
-    //   id: 4,
-    //   name: "DevOps Automation Tool",
-    //   description:
-    //     "CLI tool for automating deployment pipelines and infrastructure management.",
-    //   technologies: ["Go", "Docker", "Kubernetes", "AWS"],
-    //   github: "https://github.com",
-    //   type: "tools",
-    //   commits: 98,
-    //   stars: 45,
-    // },
   ];
 
   const tabs = [
@@ -77,11 +66,11 @@ const Projects = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2 ">
           {filteredProjects.map((project) => (
             <div
               key={project.id}
-              className="bg-gray-950 rounded-lg border border-gray-800 overflow-hidden hover:border-green-600 transition-colors"
+              className="bg-gray-950 rounded-lg border border-gray-800 overflow-hidden hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
             >
               {/* Project Header */}
               <div className="bg-gray-800 px-6 py-3 flex items-center justify-between">
@@ -142,7 +131,7 @@ const Projects = () => {
         </div>
 
         {/* Terminal Footer */}
-        <div className="mt-12 bg-gray-950 rounded-lg border border-gray-800 p-6">
+        <div className="mt-12 bg-gray-950 rounded-lg border border-gray-800 p-6 hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
           <p className="text-green-400 font-mono text-sm mb-2">$ git status</p>
           <p className="text-gray-400 font-mono text-sm">
             On branch main

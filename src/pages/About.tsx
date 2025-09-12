@@ -10,7 +10,7 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Code Editor Style About */}
-          <div className="bg-gray-900 rounded-lg border border-gray-800 overflow-hidden">
+          <div className="bg-gray-900 rounded-lg border border-gray-800 overflow-hidden hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
             {/* Editor Header */}
             <div className="bg-gray-800 px-4 py-2 flex items-center justify-between">
               <div className="flex items-center space-x-2">
@@ -77,7 +77,7 @@ const About = () => {
           {/* Terminal Style Info */}
           <div className="space-y-6">
             {/* Git Profile */}
-            <div className="bg-gray-900 rounded-lg border border-gray-800 p-6">
+            <div className="bg-gray-900 rounded-lg border border-gray-800 p-6 hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
               <p className="text-green-400 font-mono text-sm mb-4">
                 $ git log --author="Developer" --oneline
               </p>
@@ -102,7 +102,7 @@ const About = () => {
             </div>
 
             {/* Social Links */}
-            <div className="bg-gray-900 rounded-lg border border-gray-800 p-6">
+            <div className="bg-gray-900 rounded-lg border border-gray-800 p-6 hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
               <p className="text-green-400 font-mono text-sm mb-4">
                 $ ls -la ~/social-links/
               </p>
@@ -141,7 +141,7 @@ const About = () => {
             </div>
 
             {/* Stats */}
-            <div className="bg-gray-900 rounded-lg border border-gray-800 p-6">
+            <div className="bg-gray-900 rounded-lg border border-gray-800 p-6 hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
               <p className="text-green-400 font-mono text-sm mb-4">
                 $ npm stats
               </p>
