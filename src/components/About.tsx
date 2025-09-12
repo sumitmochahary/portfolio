@@ -111,7 +111,7 @@ const About = () => {
                   href="https://github.com/sumitmochahary"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-gray-400 hover:text-green-400 transition-colors"
+                  className="block text-gray-400 hover:text-green-400 px-3 py-3 transition-colors"
                 >
                   drwxr-xr-x <span className="text-blue-400">github</span>/
                 </a>
@@ -119,7 +119,7 @@ const About = () => {
                   href="https://www.linkedin.com/in/sumitmochahary/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-gray-400 hover:text-green-400 transition-colors"
+                  className="block text-gray-400 hover:text-green-400 px-3 py-3 transition-colors"
                 >
                   drwxr-xr-x <span className="text-blue-400">linkedin</span>/
                 </a>
@@ -127,13 +127,13 @@ const About = () => {
                   href="https://x.com/sumitmochahary"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-gray-400 hover:text-green-400 transition-colors"
+                  className="block text-gray-400 hover:text-green-400 px-3 py-3 transition-colors"
                 >
                   drwxr-xr-x <span className="text-blue-400">twitter</span>/
                 </a>
                 <a
                   href="mailto:sumitmochahary5@gmail.com"
-                  className="block text-gray-400 hover:text-green-400 transition-colors"
+                  className="block text-gray-400 hover:text-green-400 px-3 py-3 transition-colors"
                 >
                   -rw-r--r-- <span className="text-yellow-400">email.txt</span>
                 </a>
