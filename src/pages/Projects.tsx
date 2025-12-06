@@ -39,7 +39,7 @@ const Projects = () => {
       : projects.filter((project) => project.type === activeTab);
 
   return (
-    <section id="projects" className="py-20 bg-gray-900">
+    <section id="projects" className="py-20 bg-gray-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-100 font-mono">
@@ -70,7 +70,7 @@ const Projects = () => {
           {filteredProjects.map((project) => (
             <div
               key={project.id}
-              className="bg-gray-950 rounded-lg border border-gray-800 overflow-hidden hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
+              className="bg-gray-900 rounded-lg border border-gray-800 overflow-hidden hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
             >
               {/* Project Header */}
               <div className="bg-gray-800 px-6 py-3 flex items-center justify-between">
@@ -131,7 +131,7 @@ const Projects = () => {
         </div>
 
         {/* Terminal Footer */}
-        <div className="mt-12 bg-gray-950 rounded-lg border border-gray-800 p-6 hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+        <div className="mt-12 bg-gray-900 rounded-lg border border-gray-800 p-6 hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
           <p className="text-green-400 font-mono text-sm mb-2">$ git status</p>
           <p className="text-gray-400 font-mono text-sm">
             On branch main
